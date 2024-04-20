@@ -1,0 +1,383 @@
+/*........................home..............................................*/
+.logo {
+    float: left;
+    height: 80px;
+}
+
+.home {
+    display: contents;
+    
+    font-size: 20px;
+    padding-left: 18px;
+    color: rgba(225, 253, 255, 0.86);
+}
+
+.headers {
+    background-color: rgb(212, 82, 99);
+    text-align: right;
+    padding-left: 40px;
+    padding-bottom: 9px;
+}
+
+.headers ul {
+    /* display: inline-flex;
+    list-style-type: none; */
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 18px;
+}
+
+.headers ul button {
+    /* padding-right: 30px;
+    width: fit-content;
+    float: left;
+    padding-left: 40px;
+    background-color: rgb(209, 77, 77); */
+    padding-right: 10px;
+    /* width: fit-content; */
+    /* float: left; */
+    /* padding-left: 40px; */
+    background-color: #222121;
+    /* color: crimson; */
+    border: none;
+    margin: 10px 5px;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+
+.headers ul button :hover {
+    background-color: rgb(80, 146, 26);
+    color: white;
+    transition: 5s;
+}
+
+.mains {
+    position: absolute;
+    overflow: hidden;
+    color: rgb(252, 46, 46);
+    font-size: 55px;
+    top: 460px;
+    right: 920px;
+
+}
+
+.bun {
+    position: absolute;
+    overflow: visible;
+    top: 525px;
+    left: 80px;
+    font-size: 70px;
+    color: rgb(167, 166, 166);
+
+
+}
+
+.log {
+    font-size: 20px;
+    overflow: hidden;
+    padding-right: 60px;
+    padding-top: 54px;
+
+
+}
+
+.mar {
+    margin: 0%;
+}
+
+.bgimg {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/*....................................about............................................*/
+.about {
+    background-color: rgb(14, 13, 13);
+    height: 100%;
+    margin-top: -40px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+ *{
+    margin: 0px;
+    padding: 0px;
+} 
+
+.card {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: rgb(58, 56, 56);
+
+
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgb(33, 167, 115);
+
+}
+
+.image img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.des {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.button {
+    margin-bottom: 40px;
+    background-color: rgb(214, 111, 111);
+    border: 2px solid rgb(133, 13, 13);
+    border-radius: 12px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+button:hover {
+    background-color: rgb(146, 26, 42);
+    color: white;
+    transition: .4s;
+}
+
+.moreButton {
+    font-family: "Rubik";
+    border: none;
+    font-family: "Rubik";
+    background: crimson;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight:700 ;
+}
+
+.login_form {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: rgb(117, 112, 110);
+    color: rgb(27, 5, 3);
+    padding: 30px;
+    align-self: center;
+    position: absolute;
+    top: 90px;
+    right: 500px;
+    font-size: large;
+}
+
+.login_form button {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #201a1a;
+
+}
+
+/* *************************************************cloths****************************** */
+.cards {
+    width: 20%;
+    height: 30%;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: rgb(32, 32, 32);
+
+}
+
+.element {
+    text-align: center;
+}
+
+.images img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+/*-------------------------------------------------Contact------------------------------------------------*/
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:white;
+}
+
+.contact {
+    min-height: 100vh;
+    background-color: #e8f0fe;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info i {
+    color: #4caf50;
+    margin-right: 10px;
+}
+/*--------------------------footer------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111; 
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;    
+}
+.footerNav ul li a{
+    opacity: 1;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
